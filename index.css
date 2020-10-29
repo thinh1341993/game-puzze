@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.text{
+    font-size: 22px;
+}
+.image{
+    width: 300px;
+    height: 500px;
+    /* background-image: url('./goku.jpg'); */
+    background-size: cover;
+}
+
+table{
+    background-color: black;
+    height: 600px;
+    width: 300px;
+}
+
+td{
+    background-color: chartreuse;
+    border: black;
+    border-width: 1px;
+}
+
+.x1y6{
+    background-color: grey;
+}
+.x1y5{
+    background-image: url('./x1y5.png');
+    background-size: cover;
+}
+.x2y5{
+    background-image: url('./x2y5.png');
+    background-size: cover;
+}
+.x3y5{
+    background-image: url('./x3y5.png');
+    background-size: cover;
+}
+.x1y4{
+    background-image: url('./x1y4.png');
+    background-size: cover;
+}
+.x2y4{
+    background-image: url('./x2y4.png');
+    background-size: cover;
+}
+.x3y4{
+    background-image: url('./x3y4.png');
+    background-size: cover;
+}
+.x1y3{
+    background-image: url('./x1y3.png');
+    background-size: cover;
+}
+.x2y3{
+    background-image: url('./x2y3.png');
+    background-size: cover;
+}
+.x3y3{
+    background-image: url('./x3y3.png');
+    background-size: cover;
+}
+.x1y2{
+    background-image: url('./x1y2.png');
+    background-size: cover;
+}
+.x2y2{
+    background-image: url('./x2y2.png');
+    background-size: cover;
+}
+.x3y2{
+    background-image: url('./x3y2.png');
+    background-size: cover;
+}
+.x1y1{
+    background-image: url('./x1y1.png');
+    background-size: cover;
+}
+.x2y1{
+    background-image: url('./x2y1.png');
+    background-size: cover;
+}
+.x3y1{
+    background-image: url('./x3y1.png');
+    background-size: cover;
+}
