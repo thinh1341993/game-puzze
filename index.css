@@ -10,7 +10,6 @@ body{
 .image{
     width: 300px;
     height: 500px;
-    /* background-image: url('./goku.jpg'); */
     background-size: cover;
 }
 

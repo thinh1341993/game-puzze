@@ -51,12 +51,10 @@ function shuffle(array) {
     return array;
 }
 shuffle(random)
-console.log(random)
 random[random.indexOf(`x1y6`)] = random[15]
 random[15] = `x1y6`
 random[random.indexOf(`x1y5`)] = random[0]
 random[0] = `x1y5`
-console.log(random)
 
 let move = document.getElementById('x1y6')
 move.classList.add('x1y6')
@@ -93,11 +91,9 @@ document.addEventListener('keydown', function (e) {
                 move = document.getElementById(`x${x}y${y}`)
                 move.className = ''
                 move.classList.add(`x1y6`)
-                console.log(random.indexOf(`x1y6`))
                 z = random.indexOf(document.getElementById(`x${x + 1}y${y}`).className)
                 random[random.indexOf(`x1y6`)] = random[random.indexOf(document.getElementById(`x${x + 1}y${y}`).className)]
                 random[z] = `x1y6`
-                console.log(random)
                 if (JSON.stringify(random) == JSON.stringify(success)) {
                     alert("You Win, nhấn f5 để chơi lại")
                 }
@@ -111,11 +107,9 @@ document.addEventListener('keydown', function (e) {
                 move = document.getElementById(`x${x}y${y}`)
                 move.className = ''
                 move.classList.add(`x1y6`)
-                console.log(random.indexOf(`x1y6`))
                 z = random.indexOf(document.getElementById(`x${x}y${y - 1}`).className)
                 random[random.indexOf(`x1y6`)] = random[random.indexOf(document.getElementById(`x${x}y${y - 1}`).className)]
                 random[z] = `x1y6`
-                console.log(random)
                 if (JSON.stringify(random) == JSON.stringify(success)) {
                     alert("You Win, nhấn f5 để chơi lại")
                 }
@@ -129,11 +123,9 @@ document.addEventListener('keydown', function (e) {
                 move = document.getElementById(`x${x}y${y}`)
                 move.className = ''
                 move.classList.add(`x1y6`)
-                console.log(random.indexOf(`x1y6`))
                 z = random.indexOf(document.getElementById(`x${x - 1}y${y}`).className)
                 random[random.indexOf(`x1y6`)] = random[random.indexOf(document.getElementById(`x${x - 1}y${y}`).className)]
                 random[z] = `x1y6`
-                console.log(random)
                 if (JSON.stringify(random) == JSON.stringify(success)) {
                     alert("You Win, nhấn f5 để chơi lại")
                 }
@@ -153,7 +145,6 @@ document.addEventListener('keydown', function (e) {
                 if (JSON.stringify(random) == JSON.stringify(success)) {
                     alert("You Win, nhấn f5 để chơi lại")
                 }
-                console.log(random)
             }
             break;
     }
